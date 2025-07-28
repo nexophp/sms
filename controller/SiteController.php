@@ -9,7 +9,7 @@ namespace modules\sms\controller;
 
 use \modules\sms\lib\Sms;
 
-class SiteController extends \core\AppController
+class SiteController extends \core\AdminController
 {
     /**
      * 发送测试短信
